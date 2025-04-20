@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ExampleEx</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="contact_list_title">Contact List</string>
+    <string name="loading_contacts">Loading contacts...</string>
+    <string name="error_loading_contacts">Error loading contacts. Please try again.</string>
+</resources>
