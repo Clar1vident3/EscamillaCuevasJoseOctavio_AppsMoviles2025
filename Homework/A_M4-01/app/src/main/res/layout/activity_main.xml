@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#ECEFF1">
+
+    <TextView
+        android:id="@+id/txvEstado"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#FFFFFF"
+        android:text="Estados del ciclo de vida:\n"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:padding="16dp"
+        android:gravity="start"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/btnCambiarTexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambiar Texto" />
+
+    <Button
+        android:id="@+id/btnIrSegunda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ir a otra Activity"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
