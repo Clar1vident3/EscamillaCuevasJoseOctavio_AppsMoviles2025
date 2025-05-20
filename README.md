@@ -13,7 +13,7 @@
 
 1. Clona este repositorio:
    ```sh
-   git clone [(https://github.com/Clar1vident3/EscamillaCuevasJoseOctavio_AppsMoviles2025.git)
+   git clone (https://github.com/Clar1vident3/EscamillaCuevasJoseOctavio_AppsMoviles2025.git)
    ```
 2. Abre el proyecto en Android Studio.
 3. Compila y ejecuta en un emulador o dispositivo físico.
