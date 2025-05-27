@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/cero_button"
+        android:layout_width="187dp"
+        android:layout_height="87dp"
+        android:text="@string/text_cero_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="30sp"
+        android:layout_margin="8dp"
+        android:fontFamily="serif" />
+
+    <Button
+        android:id="@+id/igual_button"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:text="@string/text_igual_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="30sp"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/colorAccent"
+        android:fontFamily="serif" />
+
+    <Button
+        android:id="@+id/punto_button"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:text="@string/text_punto_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/igual_button"
+        android:textSize="30sp"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="serif" />
+
+    <Button
+        android:id="@+id/uno_button"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:text="@string/text_uno_button"
+        app:layout_constraintBottom_toTopOf="@id/cero_button"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="30sp"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="serif" />
+
+    <Button
+        android:id="@+id/dos_button"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:text="@string/text_dos_button"
+        app:layout_constraintBottom_toTopOf="@id/cero_button"
+        app:layout_constraintStart_toEndOf="@id/uno_button"
+        android:textSize="30sp"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="serif" />
+
+    <Button
+        android:id="@+id/cuatro_button"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:text="@string/text_cuatro_button"
+        app:layout_constraintBottom_toTopOf="@id/uno_button"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="30sp"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="serif" />
+
+    <Button
+        android:id="@+id/cinco_button"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:text="@string/text_cinco_button"
+        app:layout_constraintBottom_toTopOf="@id/dos_button"
+        app:layout_constraintStart_toEndOf="@id/cuatro_button"
+        android:textSize="30sp"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="serif" />
+
+    <Button
+        android:id="@+id/siete_button"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:text="@string/text_siete_button"
+        app:layout_constraintBottom_toTopOf="@id/cuatro_button"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="30sp"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="serif" />
+
+    <Button
+        android:id="@+id/ocho_button"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:text="@string/text_ocho_button"
+        app:layout_constraintBottom_toTopOf="@id/cinco_button"
+        app:layout_constraintStart_toEndOf="@id/siete_button"
+        android:textSize="30sp"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="serif" />
+
+    <Button
+        android:id="@+id/ac_button"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:text="@string/text_ac_button"
+        app:layout_constraintBottom_toTopOf="@id/siete_button"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="25sp"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:fontFamily="serif" />
+
+    <Button
+        android:id="@+id/masmenos_button"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:text="@string/text_masmenos_button"
+        app:layout_constraintBottom_toTopOf="@id/ocho_button"
+        app:layout_constraintStart_toEndOf="@id/ac_button"
+        android:textSize="30sp"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:fontFamily="serif" />
+
+    <Button
+        android:id="@+id/mas_button"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:text="@string/text_mas_button"
+        app:layout_constraintBottom_toTopOf="@id/igual_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="30sp"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/colorAccent"
+        android:fontFamily="serif" />
+
+    <Button
+        android:id="@+id/tres_button"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:text="@string/text_tres_button"
+        app:layout_constraintBottom_toTopOf="@id/punto_button"
+        app:layout_constraintEnd_toStartOf="@id/mas_button"
+        android:textSize="30sp"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="serif" />
+
+    <Button
+        android:id="@+id/menos_button"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:text="@string/text_menos_button"
+        app:layout_constraintBottom_toTopOf="@id/mas_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="30sp"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/colorAccent"
+        android:fontFamily="serif" />
+
+    <Button
+        android:id="@+id/seis_button"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:text="@string/text_seis_button"
+        app:layout_constraintBottom_toTopOf="@id/tres_button"
+        app:layout_constraintEnd_toStartOf="@id/menos_button"
+        android:textSize="30sp"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="serif" />
+
+    <Button
+        android:id="@+id/por_button"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:text="@string/text_por_button"
+        app:layout_constraintBottom_toTopOf="@id/menos_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="30sp"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/colorAccent"
+        android:fontFamily="serif" />
+
+    <Button
+        android:id="@+id/nueve_button"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:text="@string/text_nueve_button"
+        app:layout_constraintBottom_toTopOf="@id/seis_button"
+        app:layout_constraintEnd_toStartOf="@id/por_button"
+        android:textSize="30sp"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="serif" />
+
+    <Button
+        android:id="@+id/entre_button"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:text="@string/text_entre_button"
+        app:layout_constraintBottom_toTopOf="@id/por_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="30sp"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/colorAccent"
+        android:fontFamily="serif" />
+
+    <Button
+        android:id="@+id/porciento_button"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:text="@string/text_porciento_button"
+        app:layout_constraintBottom_toTopOf="@id/nueve_button"
+        app:layout_constraintEnd_toStartOf="@id/entre_button"
+        android:textSize="30sp"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:fontFamily="serif" />
+
+    <TextView
+        android:id="@+id/salida_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_salida_textView"
+        app:layout_constraintBottom_toTopOf="@id/entre_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="48sp"
+        android:textAlignment="textEnd"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:textColor="@color/white" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
