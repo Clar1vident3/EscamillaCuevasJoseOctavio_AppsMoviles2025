@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="1dp"
+    android:background="@android:color/darker_gray">
+
+    <ImageView
+        android:id="@+id/imgCellContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@android:color/white"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/tvCellText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="10sp"
+        android:visibility="gone"
+        tools:text="COLL" />
+
+</FrameLayout>

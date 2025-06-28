@@ -1,3 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Aviones</string>
+    <string name="step_format">Paso: %d</string>
+    <string name="collisions_format">Colisiones en este paso: %d</string>
+    <string name="button_previous_step">Paso Anterior</string>
+    <string name="button_next_step">Siguiente Paso</string>
 </resources>
