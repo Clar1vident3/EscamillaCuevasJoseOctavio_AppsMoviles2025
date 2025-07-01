@@ -5,4 +5,4 @@
     <string name="collisions_format">Colisiones en este paso: %d</string>
     <string name="button_previous_step">Paso Anterior</string>
     <string name="button_next_step">Siguiente Paso</string>
-</resources>
+    <string name="action_logout">Cerrar Sesión</string> </resources>
